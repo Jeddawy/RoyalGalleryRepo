@@ -3,25 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E12747352185C90C005D8F68 /* TableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12747342185C90C005D8F68 /* TableViewVC.swift */; };
+		E12CFB2A2187451900C69DEF /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CFB282187451800C69DEF /* MyTableViewCell.swift */; };
+		E12CFB2B2187451900C69DEF /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E12CFB292187451800C69DEF /* MyTableViewCell.xib */; };
+		E12CFB2E21874BDF00C69DEF /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CFB2C21874BDF00C69DEF /* MyCollectionViewCell.swift */; };
+		E12CFB2F21874BDF00C69DEF /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E12CFB2D21874BDF00C69DEF /* MyCollectionViewCell.xib */; };
+		E12CFB312187522F00C69DEF /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CFB302187522F00C69DEF /* SegmentViewController.swift */; };
+		E12CFB33218784DA00C69DEF /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CFB32218784DA00C69DEF /* Categories.swift */; };
 		E1D3B11E2185B4AC0090C7E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D3B11D2185B4AC0090C7E4 /* AppDelegate.swift */; };
-		E1D3B1202185B4AC0090C7E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D3B11F2185B4AC0090C7E4 /* ViewController.swift */; };
+		E1D3B1202185B4AC0090C7E4 /* CollectionViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D3B11F2185B4AC0090C7E4 /* CollectionViewVC.swift */; };
 		E1D3B1232185B4AC0090C7E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1D3B1212185B4AC0090C7E4 /* Main.storyboard */; };
 		E1D3B1252185B4E60090C7E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1D3B1242185B4E60090C7E4 /* Assets.xcassets */; };
 		E1D3B1282185B4E60090C7E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1D3B1262185B4E60090C7E4 /* LaunchScreen.storyboard */; };
+		E1D3B1312185B8C10090C7E4 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D3B1302185B8C10090C7E4 /* URLs.swift */; };
+		E1D3B1342185B8F30090C7E4 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D3B1332185B8F30090C7E4 /* APIManager.swift */; };
+		FC8A26651F47F9EB73B0345B /* Pods_Royal_Gallery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C5BAED2573171043EECBB02 /* Pods_Royal_Gallery.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00FF427EB8E26E31AF65F648 /* Pods-Royal Gallery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Royal Gallery.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Royal Gallery/Pods-Royal Gallery.debug.xcconfig"; sourceTree = "<group>"; };
+		1460951F5C360F9349C980F9 /* Pods-Royal Gallery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Royal Gallery.release.xcconfig"; path = "Pods/Target Support Files/Pods-Royal Gallery/Pods-Royal Gallery.release.xcconfig"; sourceTree = "<group>"; };
+		8C5BAED2573171043EECBB02 /* Pods_Royal_Gallery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Royal_Gallery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E12747342185C90C005D8F68 /* TableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewVC.swift; sourceTree = "<group>"; };
+		E12CFB282187451800C69DEF /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		E12CFB292187451800C69DEF /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		E12CFB2C21874BDF00C69DEF /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		E12CFB2D21874BDF00C69DEF /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
+		E12CFB302187522F00C69DEF /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
+		E12CFB32218784DA00C69DEF /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Categories.swift; path = "Royal Gallery/Controllers/Model/Model/Categories.swift"; sourceTree = SOURCE_ROOT; };
 		E1D3B11A2185B4AC0090C7E4 /* Royal Gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Royal Gallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1D3B11D2185B4AC0090C7E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E1D3B11F2185B4AC0090C7E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1D3B11F2185B4AC0090C7E4 /* CollectionViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewVC.swift; sourceTree = "<group>"; };
 		E1D3B1222185B4AC0090C7E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1D3B1242185B4E60090C7E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1D3B1272185B4E60090C7E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1D3B1292185B4E60090C7E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1D3B1302185B8C10090C7E4 /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		E1D3B1332185B8F30090C7E4 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,67 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC8A26651F47F9EB73B0345B /* Pods_Royal_Gallery.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69A9AFDEEDAF824C27A737E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00FF427EB8E26E31AF65F648 /* Pods-Royal Gallery.debug.xcconfig */,
+				1460951F5C360F9349C980F9 /* Pods-Royal Gallery.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		72C12251906245BBC8658C5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C5BAED2573171043EECBB02 /* Pods_Royal_Gallery.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E12747332185C888005D8F68 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E12CFB302187522F00C69DEF /* SegmentViewController.swift */,
+				E1D3B11F2185B4AC0090C7E4 /* CollectionViewVC.swift */,
+				E12747342185C90C005D8F68 /* TableViewVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E12747392185D9B9005D8F68 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E12CFB282187451800C69DEF /* MyTableViewCell.swift */,
+				E12CFB292187451800C69DEF /* MyTableViewCell.xib */,
+				E12CFB2C21874BDF00C69DEF /* MyCollectionViewCell.swift */,
+				E12CFB2D21874BDF00C69DEF /* MyCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E12CFB342187851800C69DEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E12CFB32218784DA00C69DEF /* Categories.swift */,
+			);
+			name = Model;
+			path = Controllers/Model/Model;
+			sourceTree = "<group>";
+		};
 		E1D3B1112185B4AB0090C7E4 = {
 			isa = PBXGroup;
 			children = (
 				E1D3B11C2185B4AC0090C7E4 /* Royal Gallery */,
 				E1D3B11B2185B4AC0090C7E4 /* Products */,
+				69A9AFDEEDAF824C27A737E2 /* Pods */,
+				72C12251906245BBC8658C5F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +127,33 @@
 			isa = PBXGroup;
 			children = (
 				E1D3B11D2185B4AC0090C7E4 /* AppDelegate.swift */,
-				E1D3B11F2185B4AC0090C7E4 /* ViewController.swift */,
+				E12747392185D9B9005D8F68 /* Cells */,
+				E12CFB342187851800C69DEF /* Model */,
+				E12747332185C888005D8F68 /* Controllers */,
+				E1D3B1322185B8D30090C7E4 /* API */,
+				E1D3B12F2185B8930090C7E4 /* Utilities */,
 				E1D3B1212185B4AC0090C7E4 /* Main.storyboard */,
 				E1D3B1242185B4E60090C7E4 /* Assets.xcassets */,
 				E1D3B1262185B4E60090C7E4 /* LaunchScreen.storyboard */,
 				E1D3B1292185B4E60090C7E4 /* Info.plist */,
 			);
 			path = "Royal Gallery";
+			sourceTree = "<group>";
+		};
+		E1D3B12F2185B8930090C7E4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E1D3B1302185B8C10090C7E4 /* URLs.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E1D3B1322185B8D30090C7E4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E1D3B1332185B8F30090C7E4 /* APIManager.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1D3B12C2185B4E60090C7E4 /* Build configuration list for PBXNativeTarget "Royal Gallery" */;
 			buildPhases = (
+				C373683FCC0B6AE257F622B3 /* [CP] Check Pods Manifest.lock */,
 				E1D3B1162185B4AC0090C7E4 /* Sources */,
 				E1D3B1172185B4AC0090C7E4 /* Frameworks */,
 				E1D3B1182185B4AC0090C7E4 /* Resources */,
+				4D05293619DB8EAF05148F4E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,11 +190,12 @@
 				TargetAttributes = {
 					E1D3B1192185B4AC0090C7E4 = {
 						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = E1D3B1152185B4AB0090C7E4 /* Build configuration list for PBXProject "Royal Gallery" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -123,6 +218,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1D3B1282185B4E60090C7E4 /* LaunchScreen.storyboard in Resources */,
+				E12CFB2B2187451900C69DEF /* MyTableViewCell.xib in Resources */,
+				E12CFB2F21874BDF00C69DEF /* MyCollectionViewCell.xib in Resources */,
 				E1D3B1252185B4E60090C7E4 /* Assets.xcassets in Resources */,
 				E1D3B1232185B4AC0090C7E4 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +227,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D05293619DB8EAF05148F4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Royal Gallery/Pods-Royal Gallery-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Royal Gallery/Pods-Royal Gallery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C373683FCC0B6AE257F622B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Royal Gallery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E1D3B1162185B4AC0090C7E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1D3B1202185B4AC0090C7E4 /* ViewController.swift in Sources */,
+				E1D3B1342185B8F30090C7E4 /* APIManager.swift in Sources */,
+				E12CFB312187522F00C69DEF /* SegmentViewController.swift in Sources */,
+				E12CFB2E21874BDF00C69DEF /* MyCollectionViewCell.swift in Sources */,
+				E12747352185C90C005D8F68 /* TableViewVC.swift in Sources */,
+				E1D3B1202185B4AC0090C7E4 /* CollectionViewVC.swift in Sources */,
+				E12CFB2A2187451900C69DEF /* MyTableViewCell.swift in Sources */,
+				E1D3B1312185B8C10090C7E4 /* URLs.swift in Sources */,
 				E1D3B11E2185B4AC0090C7E4 /* AppDelegate.swift in Sources */,
+				E12CFB33218784DA00C69DEF /* Categories.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,23 +419,20 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		E1D3B12D2185B4E60090C7E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00FF427EB8E26E31AF65F648 /* Pods-Royal Gallery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZD38Y64KH6;
 				INFOPLIST_FILE = "Royal Gallery/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Eljedd.Royal-Gallery";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -298,15 +442,13 @@
 		};
 		E1D3B12E2185B4E60090C7E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1460951F5C360F9349C980F9 /* Pods-Royal Gallery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZD38Y64KH6;
 				INFOPLIST_FILE = "Royal Gallery/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Eljedd.Royal-Gallery";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
